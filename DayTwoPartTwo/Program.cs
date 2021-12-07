@@ -18,4 +18,4 @@ foreach (string i in input)
         aim += Convert.ToInt32(i.Remove(0, 5));
     }
 }
-Console.WriteLine((decimal)(hor * vert));
+Console.WriteLine(hor * vert);

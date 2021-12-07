@@ -1,5 +1,5 @@
-﻿float hor = 0;
-float vert = 0;
+﻿decimal hor = 0;
+decimal vert = 0;
 string[] input = File.ReadAllText("Input.txt").Split("\n");
 foreach (string i in input)
 {
